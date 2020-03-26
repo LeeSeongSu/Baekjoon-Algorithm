@@ -6,13 +6,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-		int a;
+		int a, sum = 0;
 
 		a = sc.nextInt();
 
-		for (int i = 1; i <= 9; i++) {
-			System.out.println(a + " * " + i + " = " + (a * i));
-		}
+		for (int i = 1; i <= a; i++) {
+			sum += i;
 
+		}
+		System.out.println(sum);
 	}
 }
